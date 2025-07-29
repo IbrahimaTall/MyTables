@@ -1,5 +1,5 @@
 use effectdata.dta, clear
-* la syntaxe1111
+* la syntaxe111
 dtable PROD REV SEM AGE i.TYPSEM i.SITMAT i.EDU, name(macollection) by(CAMP, tests testnotes totals missing) /// line 1
  column(by(label, nofvlabel halign(center) font(, size(12) color(burlywood) variant(smallcaps) bold italic strikeout underline) /// line 2
  smcl(error) latex(textsc) shading(background(beige) foreground(antiquewhite) pattern(diagCross))) /// line 3
