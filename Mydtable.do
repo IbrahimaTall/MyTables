@@ -1,4 +1,4 @@
-//////////////////////////////////
+/////////////////////////////////
 use effectdata.dta, clear
 * la syntaxe
 dtable PROD REV SEM AGE i.TYPSEM i.SITMAT i.EDU, name(macollection) by(CAMP, tests testnotes totals missing) /// line 1
